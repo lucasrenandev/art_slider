@@ -34,7 +34,7 @@ function slideIndicator(index) {
     document.querySelector(".buttons-radio button:nth-child(" + index + ")").style.backgroundColor = "blue"
 }
 
-// Indice de slide
+// Índice de slide
 function slideIndex(index) {
     images.forEach(image => {
         image.classList.remove("active")
